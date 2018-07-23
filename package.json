@@ -15,7 +15,7 @@
     "npm": "3.10.8"
   },
   "scripts": {
-    "update": "npm update && npm prune && npm run bower ",
+    "update": "npm update && npm prune && npm run bower",
     "clean": "rm -rf node_modules/ public/lib/",
     "reinstall": "npm cache clean && npm run clean && npm install",
     "start": "gulp",
